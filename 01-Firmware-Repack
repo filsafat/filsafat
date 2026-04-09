@@ -1,0 +1,27 @@
+# 🛠 Firmware Repack Archives
+> *Precision in every byte, stability in every flash.*
+
+Selamat datang di direktori hasil racikan firmware **Dream Flasher**. Semua file di sini telah melalui uji coba di meja servis saya sebelum dibagikan.
+
+---
+
+### 📂 Device Repack List
+| Device Model | Region | Base Version | Notes |
+| :--- | :--- | :--- | :--- |
+| **Samsung A10s** | ID (XID) | Android 11 | Fix Signal & Bootloop |
+| **Infinix Hot 10** | Global | X682-V1 | Custom Lite Version |
+| **Samsung J7 Prime** | ID | Marshmallow | Stable Repack |
+
+---
+
+### 📝 Technical Notes (Catatan Teknisi)
+* **Logic First:** Pastikan baterai minimal 50% sebelum eksekusi.
+* **Driver:** Gunakan Samsung USB Driver versi terbaru agar koneksi stabil.
+* **Risk:** Segala resiko ditanggung pemakai, gunakan skema yang benar.
+
+---
+### 🤝 Feedback & Support
+If you find any bugs or have a better "schema," feel free to open an issue. 
+*Hanya sekadar berbagi, bukan menggurui. Mari belajar bersama!*
+
+[ kembali ke Beranda ](https://github.com/filsafat)
