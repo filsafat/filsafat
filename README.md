@@ -19,8 +19,8 @@
 ---
 
 ## 📊 My Activity Stats
-![Alwy's GitHub stats](https://github-readme-stats.vercel.app/api?username=filsafat&show_icons=true&theme=emerald_pull_request&rank_icon=github)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=filsafat&layout=compact&theme=emerald_pull_request)
+![Alwy's Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=filsafat&show_icons=true&theme=emerald-pull-request)
 
+![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=filsafat&layout=compact&theme=emerald-pull-request)
 ---
 *"Working with schema, execution with logic. Hasilnya Jos Markojos!"* 🐘💸
