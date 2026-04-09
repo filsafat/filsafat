@@ -1,5 +1,7 @@
 # Hi, I'm Alwy (Dream Flasher) 👋
-### 🛠 Mobile Technician | Software Engineer | Tool Repack Creator
+### 🛠 <samp>
+<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=20&center=true&vCenter=true&width=500&height=40&lines=Mobile+Technician+;Web+Developer+Focused+on+Mobile;Dream+Flasher+Digital+Lab">
+</samp>
 
 ---
 
@@ -10,19 +12,19 @@
 ---
 
 ## 🔬 Professional Maintenance SOP (Dream Flasher Method)
-*Prinsip Meja Servis: Skema adalah Peta, Logika adalah Kompas.*
+*Prinsip Meja Servis: Skema is a Map, Logika is a Compass.*
 
 ### 1. Pre-Execution (Cold Testing)
-* **Short Circuit Detection:** Melakukan pengukuran hambatan (Ohm) pada jalur utama sebelum melakukan injeksi tegangan.
+* **Short Circuit Detection:** Melakukan pengukuran hambatan (Ohm) pada jalur utama before injecting voltage.
 * **Amperage Observation:** Memahami karakter konsumsi arus melalui Power Supply. 
-  * *Critical Note:* Teknisi pro harus bisa membedakan antara "mesin matot" dengan "proteksi PSU" (terutama saat menggunakan PSU 1A pada device modern).
+  * *Critical Note:* A pro technician must be able to differentiate between a "dead machine" and "PSU protection" (terutama saat menggunakan PSU 1A pada modern device).
 
 ### 2. Deep Tracking (Signal & Path)
-* **Voltage Drop Analysis:** Mengukur nilai dioda pada setiap pin socket untuk memastikan jalur komunikasi CPU-LCD-Power tidak ada yang *Open* atau *Leak*.
+* **Voltage Drop Analysis:** Mengukur nilai dioda pada setiap pin socket to ensure that CPU-LCD-Power communication path is neither *Open* nor *Leak*.
 * **Continuity Test:** Verifikasi jalur fisik dari socket PCB ke fleksibel komponen untuk menghindari vonis salah pada IC.
 
 ### 3. Software Restoration
-* **Repack Solution:** Menggunakan tool flashing yang sudah di-optimasi (Dream Flasher Repack) untuk meminimalisir risiko *brick* saat proses eksekusi software.
+* **Repack Solution:** Menggunakan tool flashing yang sudah di-optimasi (Dream Flasher Repack) to minimize the risk of bricking during software execution.
 
 ---
 
@@ -32,4 +34,4 @@
 * **Station:** Dream Flasher Digital Lab
 
 ---
-*"Bekerja berdasarkan skema, mengeksekusi dengan logika. Hasil Jos Markojos!"* 🐘💸
+*"Working with schema, execution with logic. Hasilnya Jos Markojos!"* 🐘💸
