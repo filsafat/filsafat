@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konsultasi & Pengiriman - Dream Flasher</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #001a1a; color: white; display: flex; justify-content: center; padding: 20px; line-height: 1.6; }
+        .card { background: #004d40; border: 2px solid #ffd700; padding: 25px; border-radius: 20px; width: 100%; max-width: 450px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        h2 { color: #ffd700; text-align: center; margin-top: 0; text-transform: uppercase; letter-spacing: 2px; border-bottom: 2px solid #ffd700; padding-bottom: 10px; }
+        h3 { color: #ffd700; margin-bottom: 10px; display: flex; align-items: center; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; color: #ffd700; font-size: 14px; }
+        input, textarea { width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #ffd700; background: #002d2d; color: white; box-sizing: border-box; outline: none; }
+        input:focus, textarea:focus { border-color: #ffffff; box-shadow: 0 0 8px rgba(255, 215, 0, 0.5); }
+        button { width: 100%; padding: 15px; background: linear-gradient(45deg, #ffd700, #b8860b); color: #004d40; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 16px; transition: 0.3s; text-transform: uppercase; }
+        button:hover { background: linear-gradient(45deg, #ffffff, #ffd700); transform: translateY(-2px); box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3); }
+        .address-box { background: rgba(0,0,0,0.2); padding: 15px; border-radius: 10px; border-left: 4px solid #ffd700; margin-top: 25px; font-size: 14px; }
+        .footer { text-align: center; margin-top: 20px; font-size: 12px; color: #88aaaa; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>🛠️ Dream Flasher</h2>
+    <p style="text-align: center; font-style: italic; font-size: 13px; margin-bottom: 20px;">"Precision in every byte, stability in every flash."</p>
+    
+    <label>Nama Anda:</label>
+    <input type="text" id="nama" placeholder="Masukkan nama lengkap">
+
+    <label>Model HP:</label>
+    <input type="text" id="model" placeholder="Contoh: Samsung A10s / Infinix Hot 10">
+
+    <label>Keluhan / Kerusakan:</label>
+    <textarea id="keluhan" rows="4" placeholder="Jelaskan kerusakan HP Anda..."></textarea>
+
+    <button onclick="kirimWA()">Konsultasi via WhatsApp </button>
+
+    <div class="address-box">
+        <h3>📦 Alamat Pengiriman Unit</h3>
+        <p>
+            <strong>Penerima:</strong> Alwy MaLmsteen<br>
+            <strong>Alamat:</strong> JL.Sriwijaya 07 / Komplek Ciceri Permai / RT.07/RW.14<br>
+            <strong>Kecamatan:</strong> Serang<br>
+            <strong>Kota:</strong> Serang, Banten<br>
+            <strong>No. HP:</strong> 087813242109<br>
+        </p>
+        <p style="font-size: 11px; color: #ffea00; margin-top: 10px;">
+            *Wajib konfirmasi via WhatsApp sebelum mengirimkan unit agar segera kami jadwalkan pengerjaan.
+        </p>
+    </div>
+
+    <div class="footer">
+        © 2026 Dream Flasher Solution - Serang, Banten
+    </div>
+</div>
+
+<script>
+function kirimWA() {
+    let nama = document.getElementById('nama').value;
+    let model = document.getElementById('model').value;
+    let keluhan = document.getElementById('keluhan').value;
+    
+    // VALIDASI SEDERHANA
+    if(nama == "" || model == "" || keluhan == "") {
+        alert("Mohon lengkapi data dulu ya, sob!");
+        return;
+    }
+
+    let nomorWA = "6287813242109"; // <--- GANTI DENGAN NOMOR WA SOBAT (AWALI DENGAN 62)
+
+    let pesan = "*KONSULTASI SERVICE DREAM FLASHER*%0A" +
+                "------------------------------------%0A" +
+                "*Nama:* " + nama + "%0A" +
+                "*Model HP:* " + model + "%0A" +
+                "*Keluhan:* " + keluhan + "%0A" +
+                "------------------------------------%0A" +
+                "Mohon dibantu solusinya, Sobat Alwy!";
+
+    window.open("https://api.whatsapp.com/send?phone=" + nomorWA + "&text=" + pesan);
+}
+</script>
+
+</body>
+</html>
